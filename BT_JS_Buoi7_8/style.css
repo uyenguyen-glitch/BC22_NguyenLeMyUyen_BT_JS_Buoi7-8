@@ -1,0 +1,39 @@
+.btn {
+  display: block !important;
+}
+
+.row-1 {
+  margin: 20px;
+}
+
+#btnNhapMang {
+  margin: 0 auto;
+}
+
+.row-2 .btn {
+  width: 100% !important;
+}
+
+.row-3 {
+  margin: 20px;
+}
+
+.row-3 .btn {
+  width: 100% !important;
+}
+
+.row-5 {
+  margin-top: 20px;
+}
+
+.row-7 .btn {
+  width: 100% !important;
+}
+
+#btnDoiCho {
+  margin: 0 auto;
+}
+
+#btnNhapMangSoThuc {
+  margin: 0 auto;
+}

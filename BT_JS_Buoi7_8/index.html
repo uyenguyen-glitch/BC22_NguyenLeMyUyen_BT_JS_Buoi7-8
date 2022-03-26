@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài tập JS buổi 7-8</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label for="">Nhập số vào mảng</label>
+                <input id="numb" type="text_number" class="form-control" />
+              </div>
+
+              <div class="row row-1">
+                <div class="col-12">
+                  <button id="btnNhapMang" class="btn btn-danger">
+                    Nhập mảng
+                  </button>
+                  <div id="footerNhapMang"></div>
+                </div>
+              </div>
+
+              <div class="row row-2">
+                <div class="col-4">
+                  <button id="btnTongSoDuong" class="btn btn-info">
+                    Tổng số dương
+                  </button>
+                  <div id="footerTongSoDuong"></div>
+                </div>
+                <div class="col-4">
+                  <button id="btnDemSoDuong" class="btn btn-info">
+                    Đếm số dương
+                  </button>
+                  <div id="footerDemSoDuong"></div>
+                </div>
+                <div class="col-4">
+                  <button id="btnSoNhoNhat" class="btn btn-info">
+                    Tìm số nhỏ nhất
+                  </button>
+                  <div id="footerSoNhoNhat"></div>
+                </div>
+              </div>
+
+              <div class="row row-3">
+                <div class="col-6">
+                  <button id="btnSoDuongNhoNhat" class="btn btn-info">
+                    Tìm số dương nhỏ nhất
+                  </button>
+                  <div id="footerSoDuongNhoNhat"></div>
+                </div>
+
+                <div class="col-6">
+                  <button id="btnChanCuoiCung" class="btn btn-info">
+                    Tìm số chẵn cuối cùng
+                  </button>
+                  <div id="footerSoChanCuoiCung"></div>
+                </div>
+              </div>
+
+              <div class="row row-4">
+                <div class="col-4">
+                  <button id="btnSapXepTangDan" class="btn btn-info">
+                    Sắp xếp tăng dần
+                  </button>
+                  <div id="footerSapXepTangDan"></div>
+                </div>
+
+                <div class="col-4">
+                  <button id="btnSoNguyenToDauTien" class="btn btn-info">
+                    Tìm số nguyên tố đầu tiên
+                  </button>
+                  <div id="footerSoNguyenTo"></div>
+                </div>
+
+                <div class="col-4">
+                  <button id="btnSoSanhSoDuongSoAm" class="btn btn-info">
+                    So sánh số dương và số âm
+                  </button>
+                  <div id="footerSoSanhSDSA"></div>
+                </div>
+              </div>
+
+              <div class="row row-5">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label for="">Nhập vị trị đầu tiên </label>
+                        <input
+                          id="viTri-1"
+                          type="text_number"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label for="">Nhập vị trị thứ hai </label>
+                        <input
+                          id="viTri-2"
+                          type="text_number"
+                          class="form-control"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row row-6">
+                <div class="col-12">
+                  <button id="btnDoiCho" class="btn btn-danger">Hoán vị</button>
+                  <div id="footerDoiCho"></div>
+                </div>
+              </div>
+
+              <div class="row row-7">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="">Nhập mảng số thực</label>
+                    <input
+                      id="numbThuc"
+                      type="text_number"
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row row-8">
+                <div class="col-6">
+                  <button id="btnNhapMangSoThuc" class="btn btn-danger">
+                    Nhập mảng
+                  </button>
+                  <div id="footerSoThuc"></div>
+                </div>
+
+                <div class="col-6">
+                  <button id="btnDemSoNguyen" class="btn btn-info">
+                    Đếm số nguyên
+                  </button>
+                  <div id="footerDemSoNguyen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
